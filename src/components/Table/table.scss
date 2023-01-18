@@ -1,0 +1,36 @@
+.table {
+  .tableCell {
+    .productCell {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    span {
+      display: flex;
+      justify-content: center;
+      
+      padding: 10px;
+      text-align: center;
+      border-radius: 11px;
+      font-weight: 600;
+
+      &.Pending {
+        color: orangered;
+        background-color: rgba(236, 161, 134, 0.452);
+      }
+
+      &.Approved {
+        color: green;
+        background-color: rgba(149, 238, 149, 0.39);
+      }
+    }
+  }
+}

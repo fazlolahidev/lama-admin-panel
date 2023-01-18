@@ -1,0 +1,44 @@
+.dataTableList {
+  height: 600px;
+  padding: 20px;
+}
+
+.actionCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  .btn {
+    border: none;
+    background: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+
+    &.viewBtn {
+      color: purple;
+      border: 1px solid purple;
+    }
+
+    &.deleteBtn {
+      color: red;
+      border: 1px solid red;
+    }
+  }
+}
+
+.dataGrid {
+  margin-top: 20px;
+}
+
+.addNewUser {
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin-block: 10px;
+}

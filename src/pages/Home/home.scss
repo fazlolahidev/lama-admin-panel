@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+    .widgets, .charts {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      
+      padding: 10px;
+    }
+
+    .charts {
+      gap: 20px;
+      align-items: flex-start;
+      padding: 5px 20px;
+    }
+
+    .listContainer {
+      padding: 20px;
+
+      .listTitle {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    
+  }
+}

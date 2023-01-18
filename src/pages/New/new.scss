@@ -1,0 +1,70 @@
+.new {
+  display: flex;
+
+  .newContainer {
+    flex: 6;
+
+    .top, .bottom {
+      margin: 20px;
+      padding: 10px;
+      display: flex;
+
+      .left {
+        flex: 1;
+        text-align: center;
+
+        .noImageImg {
+          width: 300px;
+          height: 300px;
+          object-fit: cover;
+          margin: 20px;
+        }
+      }
+
+      .right {
+        flex: 2;
+
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          gap: 20px;
+
+          .formInput {
+            width: 40%;
+
+            .lableFile {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+            }
+            
+            label {
+              font-weight: 600;
+            }
+
+            input {
+              width: 100%;
+              padding: 5px;
+              border: none;
+              border-bottom: 1px solid gray;
+              outline: none;
+            }
+
+            button {
+              cursor: pointer;
+              border: none;
+              width: 150px;
+              background-color: teal;
+              color: white;
+              border-radius: 5px;
+              padding-block: 3px;
+              font-weight: 600;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
