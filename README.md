@@ -1,6 +1,6 @@
 # Admin Panel
 
-This is admin panel for managin product and user details.
+This is admin panel for managing product and user details.
 some features are not completed yet.
 
 
